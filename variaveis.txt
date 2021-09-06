@@ -1,0 +1,6 @@
+*** Variables ***
+&{Dados_Pessoais} =  Idade=31 anos  sexo=Masculino  nome=maria
+
+*** Test Case ***
+Imprimindo variável do tipo dicionário
+    log to console  ${Dados_Pessoais.sexo}

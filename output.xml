@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210906 19:51:01.429" rpa="false" schemaversion="2">
+<suite id="s1" name="Variaveis" source="C:\Users\imiyashiro\Documents\GitHub\automacaopublico\variaveis.txt">
+<test id="s1-t1" name="Imprimindo variável do tipo dicionário">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${Dados_Pessoais.sexo}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210906 19:51:01.465" endtime="20210906 19:51:01.467"/>
+</kw>
+<status status="PASS" starttime="20210906 19:51:01.465" endtime="20210906 19:51:01.468"/>
+</test>
+<status status="PASS" starttime="20210906 19:51:01.436" endtime="20210906 19:51:01.470"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Variaveis">Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
